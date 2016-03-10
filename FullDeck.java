@@ -9,11 +9,11 @@ public class FullDeck{
 	    // Loops over the integers representing the card suits
             for(int j = 1; j <=13; j++){
                 // Loops over the integers representing the card faces
-                    cardArray[k] = new Card(i, j);
-                    // Uses the Card constructor to build a card with the given suit and face
-                    k++;
-	    }
-	}
+                cardArray[k] = new Card(i, j);
+                // Uses the Card constructor to build a card with the given suit and face
+                k++;
+	        }
+		}
         return cardArray;
     }
     public static void shuffle(Card[] cardArray){
